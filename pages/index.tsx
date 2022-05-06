@@ -47,26 +47,19 @@ export default function Home({ posts }: { posts: any[] }) {
 	return (
 		<Container fluid>
 			<NextSeo
-				title="BitterHike - Marc's Wanderblog"
-				description="BitterHike - Mein Blog in dem ich über meine Wandererlebnisse schreibe."
+				title="BitterBooks - Marc's Book Blog"
+				description="BitterBooks - Where I write about books I read."
 			/>
-			<h1>BitterHike - Mein Wanderblog</h1>
+			<h1>BitterBooks - My Book Blog</h1>
 			<p>
-				Hier schreibe ich ab und zu über meine Wanderungen in und um die
-				Schweizer Alpen. Unten sind meine aktuellsten Posts und{" "}
-				<Link href="/wanderungen/" passHref>
-					<a>hier</a>
-				</Link>{" "}
-				findest du eine Liste aller meiner Wanderungen.
+				Sometimes I write about books I have read and liked (or disliked). You
+				can find a better overview{" "}
+				<Link href="/series/" passHref>
+					<a>here</a>
+				</Link>
+				.
 			</p>
-			<p>
-				Falls ich gerade unterwegs in den Bergen bin kannst du mich auf der{" "}
-				<Link href="/live/" passHref>
-					<a>Live</a>
-				</Link>{" "}
-				Seite verfolgen!
-			</p>
-			<h2>Neuste Posts</h2>
+			<h2>Newest Posts</h2>
 			<Row xs={1} sm={1} md={2} lg={2} xl={2} xxl={2}>
 				{posts.length > 0 ? (
 					posts
@@ -110,7 +103,7 @@ export default function Home({ posts }: { posts: any[] }) {
 				)}
 				<Link href="/blog/" passHref>
 					<a style={{ marginTop: -10, marginBottom: 10, fontSize: 26 }}>
-						Mehr Posts...
+						More Posts...
 					</a>
 				</Link>
 			</Row>

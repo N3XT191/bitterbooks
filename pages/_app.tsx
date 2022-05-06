@@ -31,9 +31,9 @@ function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
 						name="apple-mobile-web-app-status-bar-style"
 						content="black-translucent"
 					/>
-					<meta name="application-name" content="BitterHike" />
+					<meta name="application-name" content="BitterBooks" />
 					<meta name="apple-mobile-web-app-capable" content="yes" />
-					<meta name="description" content="BitterHike - Marc's Wander-Blog" />
+					<meta name="description" content="BitterBooks - Marc's Book Blog" />
 					<meta name="msapplication-TileColor" content="#2B5797" />
 					<meta name="msapplication-tap-highlight" content="no" />
 					<meta name="theme-color" content="#000000" />
@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
 						rel="stylesheet"
 						href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
 					/>
-					<title>BitterHike - Marc's Wander-Blog</title>
+					<title>BitterBooks - Marc's Book Blog</title>
 				</Head>
 				<div>
 					<Nav />

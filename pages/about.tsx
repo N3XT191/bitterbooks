@@ -6,10 +6,11 @@ const About = () => {
 	return (
 		<div className="mt-3">
 			<NextSeo
-				title="BitterHike - Über Mich"
-				description="Ich in Marc, der Autor dieses Blogs..."
+				title="BitterBlog - About"
+				description="I am Marc, I like to read books."
 			/>
-			<p className="display-4 text-center">Marc Bitterli</p>
+			<p className="display-4 text-center">About Me</p>
+			<div>bla bla bla</div>
 		</div>
 	);
 };

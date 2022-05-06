@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { NextSeo } from "next-seo";
 
-import { Container, Col, Row, Card } from "react-bootstrap";
+import { Container, Row, Card } from "react-bootstrap";
 import useIsMobile from "../components/isMobile";
 import { useRouter } from "next/router";
 import React from "react";
@@ -50,8 +50,8 @@ export default function Blog({ posts }: { posts: any[] }) {
 	return (
 		<Container fluid>
 			<NextSeo
-				title="BitterHike - Marc's Wanderblog"
-				description="BitterHike - Mein Blog in dem ich über meine Wandererlebnisse schreibe."
+				title="BitterBooks - Marc's Book Blog"
+				description="BitterBooks - My Blog where I sometimes write reviews about books."
 			/>
 
 			<div style={{ display: "flex", alignItems: "center" }}>

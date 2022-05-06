@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Card } from "react-bootstrap";
+import useIsMobile from "./isMobile";
 
 const dateOptions = {
 	year: "numeric" as "numeric",
@@ -22,14 +23,15 @@ const StatCard = ({
 		tags: string[];
 	};
 }) => {
+	const useMobile = useIsMobile();
 	return (
 		<Card
 			style={{
-				marginBottom: 20,
-				cursor: "pointer",
-				width: 350,
+				width: 300,
 				maxWidth: "100%",
-				zIndex: 1,
+				float: "left",
+				marginBottom: 10,
+				marginRight: 10,
 			}}
 		>
 			<Card.Body>

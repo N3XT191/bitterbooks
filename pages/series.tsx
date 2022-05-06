@@ -35,8 +35,8 @@ const Series = ({ posts }: { posts: any[] }) => {
 	return (
 		<div className="mt-3">
 			<NextSeo
-				title="BitterHike - Wanderungen"
-				description="Eine Übersicht meiner Wanderungen in und um die Schweizer Alpen"
+				title="BitterBooks - Series"
+				description="An Overview of the books and series I have reviewed."
 			/>
 			<div
 				style={{

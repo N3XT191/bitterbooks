@@ -74,22 +74,8 @@ const PostPage: React.FC<Props> = ({
 			/>
 			<PostNavigation previousSlug={previousSlug} nextSlug={nextSlug} />
 			<h1>{frontMatter.title}</h1>
-			{frontMatter.sectionGPXUrl ? (
-				<div
-					style={{
-						width: 510,
-						maxWidth: "100%",
-						float: "right",
-						marginBottom: 10,
-						marginLeft: 10,
-						height: useMobile ? 200 : 500,
-					}}
-				></div>
-			) : (
-				<div />
-			)}
 			<StatCard data={frontMatter as any} />
-			<div style={{ fontSize: useMobile ? undefined : 24 }}>
+			<div style={{ fontSize: useMobile ? undefined : 20 }}>
 				<MDXRemote {...mdxSource} components={{ Img }} />
 			</div>
 			<PostNavigation previousSlug={previousSlug} nextSlug={nextSlug} />
