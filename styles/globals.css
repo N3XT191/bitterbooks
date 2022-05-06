@@ -1,0 +1,40 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+.wholeRoute {
+	z-index: 550 !important;
+}
+.partRoute {
+	z-index: 660 !important;
+}
+.live {
+	z-index: 670 !important;
+}
+.cross {
+	color: gray;
+}
+.cross:hover {
+	color: black;
+	border: 3px solid black !important;
+}
+ul li {
+	margin-bottom: 10px;
+}
+
+.leaflet-marker-icon {
+	display: none !important;
+}
